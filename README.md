@@ -1,58 +1,66 @@
 # RSS Feed Reader
 
-## Περιγραφή
+## Description
 
-- **RSS Feed Reader Spimav v.0.1**
-- Ένα python πρόγραμμα που επιτρέπει την παρακολούθηση νέων ενημερώσεων από sites.
-- Τα sites που παρακολουθεί συγκαταλέγονται σε δύο κατηγορίες _Ευρωπαϊκή Ένωση_ και _Λογοτεχνικά Περιοδικά_
-- Αναλύει και κατηγοριοποιεί τα feeds και αποθηκεύει τα αποτελέσματα σε αρχείο CSV.
-
----
-
-## Αρχεία του Project
-
-- `main.py`: Η βασική ροή του προγράμματος. Διαχειρίζεται τη λήψη και ανάλυση των feeds.
-- `feed_manager.py`: Περιέχει τις συναρτήσεις για τη διαχείριση των feeds και την κατηγοριοποίησή τους.
-- `feeds.json`: Αρχείο εισαγωγής πληροφοριών των RSS feeds.
-- `updates.csv`: Αρχείο εξαγωγής των αποτελεσμάτων της ανάλυσης.
+- **RSS Feed Reader Spimav v.0.1**  
+- A Python program that allows monitoring new updates from various sites.  
+- The monitored sites are categorized into two groups: _European Union_ and _Literary Magazines_.  
+- It analyzes and categorizes the feeds and saves the results in a CSV file.  
 
 ---
 
-## Εγκατάσταση και Χρήση
+## Project Files
 
-1. **Κατέβασε το project:**
+- `main.py`: The main workflow of the program. It manages the retrieval and analysis of the feeds.
+- `feed_manager.py`: Contains functions for managing the feeds and categorizing them.
+- `feeds.json`: Input file containing the RSS feeds information.
+- `updates.csv`: Output file containing the analysis results.
+
+---
+
+## Installation and Usage
+
+1. **Download the project:**
 
    ```bash
-   git clone https://github.com/TO-USERNAME-SOU/RSS-Feed-Reader.git
+   git clone https://github.com/SpyridonMavrommatis-1/RSS-Feed-Reader.git
    cd RSS-Feed-Reader
    ```
 
-2. **Εγκατέστησε τις απαιτούμενες βιβλιοθήκες:**
+2. **Create and Activate the Virtual Environment (if not already created):**
+
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate   # Windows
+   source venv/bin/activate   # MacOS/Linux
+   ```
+
+3. **Install the required libraries:**
 
    ```bash
    pip install feedparser
    ```
 
-3. **Τρέξε το πρόγραμμα:**
-   ```bash
-   python main.py
-   ```
+4. **Run the program using the .bat file:**
+
+- In the project folder, locate the `run_rss_reader.bat` file.
+- Double-click to launch the program.
 
 ---
 
-## Πώς Λειτουργεί
+## How It Works
 
-- **Διαμόρφωση Βημάτων:** Οργανώνει τη ροή του προγράμματος και καλεί τις απαραίτητες συναρτήσεις.
-- **Διαχείριση:** Αναλύει και κατηγοριοποιεί τα RSS feeds.
-- **Ανάλυση Δεδομένων:** Εξάγει τα άρθρα και τις πληροφορίες από τα feeds.
-- **Εισαγωγή Πληροφοριών (JSON):** Φορτώνει τα RSS feeds από το `feeds.json`.
-- **Εξαγωγή Χρήσιμων Πληροφοριών:** Αποθηκεύει τα αποτελέσματα στο `updates.csv`.
+- **Step Configuration:** Organizes the program's flow and calls the necessary functions.
+- **Management:** Analyzes and categorizes the RSS feeds.
+- **Data Analysis:** Extracts articles and information from the feeds.
+- **Information Input (JSON):** Loads RSS feeds from `feeds.json`.
+- **Extraction of Useful Information:** Saves results in `updates.csv`.
 
 ---
 
-## Παραδείγματα και Screenshots
+## Examples and Screenshots
 
-- **Παράδειγμα εισόδου (feeds.json):**
+- **Sample Input (`feeds.json`):**
   ```json
   [
     { "name": "Vakxikon", "url": "https://www.vakxikon.gr/feed/" },
@@ -62,33 +70,34 @@
     }
   ]
   ```
-- **Παράδειγμα εξόδου (updates.csv):**
+- **Sample Output (`updates.csv`):**
   ```
   Category, Feed Name, Title, Link, Published Date
-  Λογοτεχνικά Περιοδικά, Vakxikon, Ποίημα της Εβδομάδας, https://example.com, 2025-02-28
+  Literary Magazines, Vakxikon, Poem of the Week, https://example.com, 2025-02-28
   ```
 
 ---
 
-**Σημειώσεις και Troubleshooting**
+## Notes and Troubleshooting
 
-- Πρόβλημα με το updates.csv:
-  - Εάν το πρόγραμμα εμφανίζει σφάλμα PermissionError: [Errno 13] Permission denied: 'updates.csv',
-    βεβαιωθείτε ότι: Το αρχείο updates.csv δεν είναι ανοιχτό σε κάποιο πρόγραμμα, όπως το Excel ή το VSCode.
-  - Εάν είναι ανοιχτό, κλείστε το και δοκιμάστε ξανά. Σε περίπτωση που το πρόβλημα παραμένει, κλείστε το VSCode και ξανατρέξτε το πρόγραμμα.
-
----
-
-## Μελλοντικές Βελτιώσεις
-
-- Δυνατότητα προσθήκης περισσότερων κατηγοριών.
-- Αυτόματο refresh των feeds.
-- Υποστήριξη για περισσότερους τύπους αρχείων εξαγωγής (π.χ. JSON, XML).
+- **Issue with `updates.csv`:**
+  - If the program displays an error `PermissionError: [Errno 13] Permission denied: 'updates.csv'`,
+    ensure that the file is not open in another program like Excel or VSCode.
+  - If it is open, close it and try again. If the issue persists, close VSCode and rerun the program.
 
 ---
 
-## Συγγραφέας
+## Future Improvements
 
-- **Το Όνομά Σου**
-- **LinkedIn:** [Το LinkedIn Σου](https://www.linkedin.com/in/το-όνομα-σου)
-- **GitHub:** [Το GitHub Σου](https://github.com/TO-USERNAME-SOU)
+- Ability to add more categories.
+- Automatic refresh of feeds.
+- Future GUI implementation for category selection and real-time feed updates.
+
+---
+
+## Author
+
+- **Your Name**
+- **LinkedIn:** https://www.linkedin.com/in/spiridonmavrommatis/
+- **GitHub:** https://github.com/SpyridonMavrommatis-1
+

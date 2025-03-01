@@ -1,0 +1,11 @@
+[
+    {"name": "European Parliament News Topics", "url": "https://www.europarl.europa.eu/rss/en/news-topics"},
+    {"name": "European Council - Δελτία Τύπου", "url": "https://www.consilium.europa.eu/en/press/rss"},
+    {"name": "European Council - Πρόσφατα Έγγραφα", "url": "https://www.consilium.europa.eu/en/register/rss/LD.xml"},
+    {"name": "European Council - Σύνοψη Πράξεων", "url": "https://www.consilium.europa.eu/en/register/rss/ACT.xml"},
+    {"name": "Tahoma Literary Review", "url": "https://tahomaliteraryreview.com/feed/"},
+    {"name": "Vakxikon", "url": "https://www.vakxikon.gr/feed/"},
+    {"name": "Diastixo", "url": "https://diastixo.gr/index.php?option=com_jmap&view=sitemap&format=rss"},
+    {"name": "The Offing", "url": "https://theoffingmag.com/feed/"},
+    {"name": "Vakxikon", "url": "https://www.vakxikon.gr/category/entheto/fulla-logotexneias/feed/"}
+]
