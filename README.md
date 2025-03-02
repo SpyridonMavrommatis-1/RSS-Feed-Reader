@@ -97,7 +97,7 @@
 
 ## Author
 
-- **Your Name**
+- **Name** Spyridon Mavrommatis
 - **LinkedIn:** https://www.linkedin.com/in/spiridonmavrommatis/
 - **GitHub:** https://github.com/SpyridonMavrommatis-1
 
