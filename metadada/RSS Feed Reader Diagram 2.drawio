@@ -1,0 +1,139 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="Ir4CTJVgPV-6omDBYPQV">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-17" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;dashed=1;strokeColor=#B3B3B3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="420" as="sourcePoint" />
+            <mxPoint x="670" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-7" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;templates&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Contains main UI template for rendering data&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-8" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="Mo32G0_pkQvob9-l22Jo-7" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="7DlS5ec11CydCIvmTqB9-13" target="Mo32G0_pkQvob9-l22Jo-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-10" value="API REQUESTS AND RESPONSES&amp;nbsp;&lt;div&gt;BETWEEN FRONTEND &amp;amp; SERVER&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Mo32G0_pkQvob9-l22Jo-9" vertex="1" connectable="0">
+          <mxGeometry x="0.14" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-13" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;server.py&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: H&lt;span style=&quot;&quot; data-end=&quot;238&quot; data-start=&quot;213&quot;&gt;andles HTTP requests&lt;/span&gt; from the frontend (instead of running in a terminal)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Attribute2:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;324&quot; data-start=&quot;297&quot;&gt;Calls feed_manager.py&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; to fetch and process RSS feeds&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Attribute 3:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;387&quot; data-start=&quot;361&quot;&gt;Returns JSON responses&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; to the frontend.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="480" width="375" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-14" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7DlS5ec11CydCIvmTqB9-13" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-15" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;feed_manager&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;.py&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Manages feeds and updates&lt;br&gt;+ Attribute2: Uses parser&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="650" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-16" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7DlS5ec11CydCIvmTqB9-15" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-17" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;parser&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;.py&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Parses RSS feed entries&lt;br&gt;+ Attribute2: Returns parsed data&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="582.5" y="650" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-18" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7DlS5ec11CydCIvmTqB9-17" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-21" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;Database Layer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Stores and retrieves RSS data&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="137.5" y="800" width="252.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-22" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7DlS5ec11CydCIvmTqB9-21" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-23" value="READS" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.428;exitY=1.004;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="7DlS5ec11CydCIvmTqB9-15" target="7DlS5ec11CydCIvmTqB9-21" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="182.5" y="710" as="sourcePoint" />
+            <mxPoint x="342.5" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-24" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;updates.csv&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Logs updates&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="800" width="157.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-25" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7DlS5ec11CydCIvmTqB9-24" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-26" value="SAVE" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.579;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.591;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7DlS5ec11CydCIvmTqB9-15" target="7DlS5ec11CydCIvmTqB9-24" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="422.5" y="730" as="sourcePoint" />
+            <mxPoint x="322.5" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-27" value="CALL" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.49;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7DlS5ec11CydCIvmTqB9-13" target="7DlS5ec11CydCIvmTqB9-15" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="372.5" y="560" as="sourcePoint" />
+            <mxPoint x="478.5" y="657" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7DlS5ec11CydCIvmTqB9-28" value="USE" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.007;exitY=0.457;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7DlS5ec11CydCIvmTqB9-15" target="7DlS5ec11CydCIvmTqB9-17" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="561.5" y="690" as="sourcePoint" />
+            <mxPoint x="477.5" y="786" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Mo32G0_pkQvob9-l22Jo-3" target="Mo32G0_pkQvob9-l22Jo-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-14" value="FRONTEND UPDATES RENDERED&lt;div&gt;&amp;nbsp;TEMPLATES DYNAMICALLY USING JAVASCRIPT&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Mo32G0_pkQvob9-l22Jo-13" vertex="1" connectable="0">
+          <mxGeometry x="0.0795" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Mo32G0_pkQvob9-l22Jo-3" target="Mo32G0_pkQvob9-l22Jo-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-16" value="USES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Mo32G0_pkQvob9-l22Jo-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.014" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-3" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;frontend&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Displays RSS feeds dynamically using JavaScript&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="300" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="Mo32G0_pkQvob9-l22Jo-3" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-5" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&lt;b&gt;&amp;nbsp; static&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Contains CSS, SCSS, JavaScript files&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="150" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="Mo32G0_pkQvob9-l22Jo-5" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.385;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7DlS5ec11CydCIvmTqB9-13" target="Mo32G0_pkQvob9-l22Jo-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mo32G0_pkQvob9-l22Jo-23" value="SERVER PROCESSES&amp;nbsp;&lt;div&gt;REQUEST&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AND RENDERS&amp;nbsp;&lt;/span&gt;&lt;div&gt;TEMPLATES&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BEFORE&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SENDING TO BROWSER&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Mo32G0_pkQvob9-l22Jo-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.1459" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxWpqQOlTT4_aSYPvlha-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;BACKEND&lt;/font&gt;" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
